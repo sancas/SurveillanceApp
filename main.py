@@ -47,7 +47,7 @@ def hash_password(password: str):
 # ==========================================
 
 
-class VigilixApp(MDApp):
+class SurveillanceApp(MDApp):
     def build(self):
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_palette = "BlueGray"
@@ -549,4 +549,4 @@ class VigilixApp(MDApp):
 # ==========================================
 
 if __name__ == "__main__":
-    VigilixApp().run()
+    SurveillanceApp().run()
